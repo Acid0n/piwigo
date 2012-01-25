@@ -1,0 +1,28 @@
+/* fix IE with another layout for thumbnails */
+
+.thumbnails .wrap2 {
+  display: block;
+  position: relative;
+  text-align: left;
+}
+.thumbnails .wrap2 A,
+.thumbnails .wrap2 SPAN {
+  overflow: visible;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+}
+
+.thumbnails IMG.thumbnail {
+  position: relative;
+  top: -50%;   
+  margin-top: 2%;
+}
+
+.pwg-icon {
+	display: block;
+}
+
+INPUT[type='submit'] {
+  text-indent: 0px !important;
+}
